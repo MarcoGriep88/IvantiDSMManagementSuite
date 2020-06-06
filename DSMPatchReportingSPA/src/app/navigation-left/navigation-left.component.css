@@ -1,0 +1,9 @@
+.user-text {
+    padding: 8px 0px 4px 16px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-default.sidebar {
+    margin-top: 8px;
+}

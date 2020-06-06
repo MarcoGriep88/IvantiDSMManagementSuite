@@ -1,0 +1,52 @@
+
+           
+           <div class="panel panel-default" *ngIf="!finishedLoading">
+            <div id="preloader">
+                <div id="loader"></div>
+              </div>
+           </div>
+           
+           <div class="panel panel-default" *ngIf="finishedLoading">
+                <div class="card card-chart">
+                        <div class="card card-stats">
+                                <div class="card-header card-header-info card-header-icon">
+                                  <div class="card-icon">
+                                        <i class="material-icons">
+                                            verified_user
+                                                </i>
+                                  </div>
+                                  <h4 class="card-category">Patch Verlauf Übersicht</h4>
+                                  <h3 class="card-title">Ihre zuletzt ermittelten Patch Daten</h3>
+                                  <br/>
+                                 </div>
+                      </div>
+   
+               <div class="panel-body">
+                   <div class="row">
+                       <div class="col-md-12">
+                           <div class="table-responsive">
+                               <table class="table table-bordered table-hover table-striped">
+                                   <thead>
+                                       <tr>
+                                           <th>Datum der Kontrolle</th>
+                                           <th>Geschlossen</th>
+                                           <th>Nicht geschlossen</th>
+                                           <th>Nicht anwendbar</th>
+                                           <th>Details</th>
+                                       </tr>
+                                   </thead>
+                                   <tbody>
+                                       <tr *ngFor="let tour of touren">
+                                           <td>{{ tour.date | date:"MM/dd/yy" }}</td>
+                                           <td>{{ tour.fixed }}</td>
+                                           <td>{{ tour.notFixed }}</td>
+                                           <td>{{ tour.notApplicable }}</td>
+                                           <td><a routerLink="/patchOverview/{{ tour.date }}" class="btn btn-info" >Details</a><td>
+                                       </tr>
+                                   </tbody>
+                               </table>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>

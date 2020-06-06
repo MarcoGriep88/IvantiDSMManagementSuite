@@ -1,0 +1,19 @@
+<div class="bg-banner">
+    
+</div>
+
+<div class="overlay">
+    <form class="form-signin" #f="ngForm" (ngSubmit)="signIn(f.value)">
+        <h2 class="form-signin-heading">Anmelden</h2>
+        <div *ngIf="invalidLogin" class="alert alert-danger">Ungültiger Benutzername oder Passwort.</div>
+        <label for="inputEmail" class="sr-only">Email Adresse</label>
+        <input type="username" id="inputEmail" name="username" ngModel class="form-control" placeholder="Email@email.de" required autofocus>
+        <label for="inputPassword" class="sr-only">Passwort</label>
+        <input type="password" id="inputPassword" name="password" ngModel class="form-control" placeholder="Passwort" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Anmelden</button>
+      </form>
+      <div class="register">
+          <a routerLink="/register">Noch nicht registriert?</a>
+      </div>
+</div>
+

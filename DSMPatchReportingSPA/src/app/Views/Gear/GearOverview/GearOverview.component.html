@@ -1,0 +1,68 @@
+<app-navigation-left></app-navigation-left>
+
+<div class="main-panel" *ngIf="!finishedLoading">
+    <div id="preloader">
+        <div id="loader"></div>
+      </div>
+</div>
+
+<div class="main-panel" *ngIf="finishedLoading">
+    <div class="content">
+       <div class="panel panel-default">
+           <div class="panel-heading">
+               <h3>Detail Ansicht Patch Status</h3>
+           </div>
+
+           <form>
+               <input name="filterInput" placeholder="Filter" [ngModel]="filter" (ngModelChange)="filterData($event)"/>
+           </form>
+           <div class="panel-body">
+               <div class="row">
+                   <div class="col-md-12">
+                       <div class="table-responsive">
+                           <table class="table table-bordered table-hover table-striped" id="DataTable">
+                               <thead>
+                                   <tr>
+                                       <th>Computer</th>
+                                       <th>Patch</th>
+                                       <th>Compliance</th>
+                                       <th>Found Date</th>
+                                       <th>Fix Date</th>
+                                   </tr>
+                               </thead>
+                               <tbody>
+                                   <tr *ngFor="let item of gear">
+                                       <td>{{ item.computer }}</td>
+                                       <td>{{ item.patch }}</td>
+                                       <td>{{ item.compliance }}</td>
+                                       <td>{{ item.foundDate }}</td>
+                                       <td>{{ item.fixDate }}</td>
+                                   </tr>
+                               </tbody>
+                           </table>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+    <script>
+    $(document).ready(function() {
+        $('#DataTable').DataTable({
+            "language": {
+                "lengthMenu": "Zeige _MENU_ Einträge pro Seite",
+                    "zeroRecords": "Keine Einträge gefunden",
+                        "info": "Zeige Seite _PAGE_ von _PAGES_",
+                            "infoEmpty": "Keine Einträge gefunden",
+                            "infoFiltered": "(gefiltert von _MAX_ Gesamteinträgen)",
+                            "search": "Suchen:",
+                            "paginate": {
+                                "previous": "Vorherige Seite",
+                                "next": "Nächste Seite"
+                            }
+            }
+        });
+    });
+    </script>
