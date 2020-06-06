@@ -14,5 +14,10 @@ The following client applications are currently available:
 - DSM Web (DSMPatchReportingSPA)
 - DSM Windows Dashboard
 
-[My Webpage German](https://www.marcogriep.de)
-[My Webpage English](https://www.marcogriep.com)
+## How to Install
+If you are speaking German, please use the installation instructions over here: [German Installation Instruction](https://www.marcogriep.de/blog/installation-von-dsm-management-suite-backend-auf-einem-ubuntu-server-18-04/)
+
+If you are not speaking German then you need some patience. I will write an English Article in a few Days. Sorry
+
+* [My Webpage German](https://www.marcogriep.de)
+* [My Webpage English](https://www.marcogriep.com)
