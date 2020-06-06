@@ -1,25 +1,18 @@
-# DSM Patch Reporting PRO
-
-DSM Patch Reporting PRO (DSMPR) ist eine unabhängige Erweiterung für Ivanti DSM.
-DSMPR erweitert die Auswertungsmöglichkeiten von Ivanti DSM im Bereich Patch Management.
-Unterstützt werden alle Patch Management Lösungen von Ivanti DSM:
-- Classic Patch Management
+DSM Management Suite is an independent extension for Ivanti DSM.
+DSMMS extends the evaluation options of Ivanti DSM in the area of patch management.
+All patch management solutions from Ivanti DSM are supported:
+- Classic patch management
 - Advanced Patch Management
-- Patch Link
+- Patch link
 
-DSMPR ermittelt mit Hilfe der DSM Powershell Extensions und einer Powershell Anwendung (DSMPR_Scan) für jedes Computerobjekt
-die offenen, und geschlossenen Sicherheitslücken und meldet diesen an einen Webserver (DSMAuthGateway).
+DSMMS uses the DSM Powershell Extensions and a Powershell application (DSMPR_Scan) for each computer object
+the open and closed security gaps and reports this to a web server (DSMAuthGateway).
 
-Die gesammelten Informationen können anschließend mit einer Client Anwendung abgerufen, verarbeitet oder visualisiert werden.
+The collected information can then be called up, processed or visualized with a client application.
 
-Folgende Client Applikationen stehen aktuell zur Verfügung:
-- DSM Patch Reporting Web (DSMPatchReportingSPA)
-- DSM Patch Reporting Windows Dashboard
+The following client applications are currently available:
+- DSM Web (DSMPatchReportingSPA)
+- DSM Windows Dashboard
 
-## DSM Patch Reporting Sync Script
-
-## DSM Patch Reporting Authentification Gateway
-
-## DSM Patch Reporting Web Application (SPA)
-
-## DSM Patch Reporting Windows GUI
+[My Webpage German](https://www.marcogriep.de)
+[My Webpage English](https://www.marcogriep.com)
