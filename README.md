@@ -19,5 +19,8 @@ If you are speaking German, please use the installation instructions over here: 
 
 If you are not speaking German then you need some patience. I will write an English Article in a few Days. Sorry
 
+## Your help is needed
+This application is still in maintanance. If you use this application, please consider donating to support further development. This Software will be maintained as long there is interest and financial support. You can donate my using the Sponsoring Button in the root of the Repository or by [Patreon](https://www.patreon.com/bePatron?u=36441678&redirect_uri=https%3A%2F%2Fwww.marcogriep.de%2Fblog%2Finstallation-von-dsm-management-suite-backend-auf-einem-ubuntu-server-18-04%2F&utm_medium=widget). Thanks!
+
 * [My Webpage German](https://www.marcogriep.de)
 * [My Webpage English](https://www.marcogriep.com)
