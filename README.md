@@ -15,7 +15,7 @@ The following client applications are currently available:
 - DSM Windows Dashboard
 
 ## How to Install
-If you are speaking German, please use the installation instructions over here: [German Installation Instruction](https://www.marcogriep.de/blog/installation-von-dsm-management-suite-backend-auf-einem-ubuntu-server-18-04/)
+If you are speaking German, please use the installation instructions over here: [German Installation Instruction](https://www.marcogriep.de/blog/dsm-management-suite-anleitung/)
 
 If you are not speaking German, over here is an [english dsm management suite manual](https://www.marcogriep.com/blog/dsm-management-suite-manual/)
 

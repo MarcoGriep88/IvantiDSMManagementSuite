@@ -54,8 +54,6 @@ params:
     sublinks:
     - title: Support
       url: /support
-    - title: Knowledge Base
-      url: https://kb.marcogriep.de
     - title: GitHub Issues
       url: https://github.com/MarcoGriep88/IvantiDSMManagementSuite/issues
   - title: Contact
@@ -66,17 +64,17 @@ params:
     tiles:
     - title: Community Edition
       icon: mouse-globe
-      text: Free and Open Source. Powered by main Contributor and the energy of the Community.
+      text: Free and Open Source. Powered by main Contributor and the energy of the Community. Help via GitHub Issues only.
       url: https://github.com/MarcoGriep88/IvantiDSMManagementSuite/
       buttonText: GitHub Repository
     - title: Patreon Edition
       icon: laptop-cloud
-      text: Access to the Enterprise Portal (Support), direct Contact to the Developer, Prebuild Virtual Appliances, Access to Feature Polls and additional Documents.
+      text: Access to the Enterprise Portal with direct contact to the Developer. Prebuild Virtual Appliances & Access to feature polls.
       url: /
       buttonText: Get started
     - title: Cloud Edition
       icon: plug-cloud
-      text: Managed Hosting for the Web API and the Web Dashboard. The Infrastructre is managed by us (Updates etc.)
+      text: Managed Hosting for the Web API and / or the Web Dashboard. The Infrastructre is managed by me (Updates, new Features, Backup)
       url: /
       buttonText: Get started
   section2:
@@ -103,7 +101,7 @@ params:
       title: Check out the Demo
       subtitle: There is a Demo Server available - Try before you install
       image: illustrations/mockups/app-mockup.png
-      buttonText: What the Demo
+      buttonText: Try the Demo
       buttonLink: "/demo"
   section4:
     title: Our Clients love us!
@@ -123,8 +121,6 @@ params:
       img: 3
   section5: true
   footer:
-    # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -144,27 +140,25 @@ params:
       column1:
         title: "Product"
         links:
-        - text: Discover features
-          link: /
         - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+          link: /#features
+        - text: Compare editions
+          link: /#editions
+        - text: Privacy
+          link: /privacy
+        - text: Impress
+          link: /impress
       column2:
         title: "Docs"
         links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
+        - text: German getting started
+          link: https://www.marcogriep.de/blog/dsm-management-suite-anleitung/
+        - text: English getting started
+          link: https://www.marcogriep.com/blog/dsm-management-suite-manual/
+        - text: GitHub Repository
+          link: https://github.com/MarcoGriep88/IvantiDSMManagementSuite
+        - text: Patreon
+          link: https://www.patreon.com/griepmarco
       column3:
         title: "Blog"
         links:
