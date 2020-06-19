@@ -17,7 +17,7 @@ The following client applications are currently available:
 ## How to Install
 If you are speaking German, please use the installation instructions over here: [German Installation Instruction](https://www.marcogriep.de/blog/installation-von-dsm-management-suite-backend-auf-einem-ubuntu-server-18-04/)
 
-If you are not speaking German then you need some patience. I will write an English Article in a few Days. Sorry
+If you are not speaking German, over here is an [english dsm management suite manual](https://www.marcogriep.com/blog/dsm-management-suite-manual/)
 
 ## Your help is needed
 This application is still in maintanance. If you use this application, please consider donating to support further development. This Software will be maintained as long there is interest and financial support. You can donate my using the Sponsoring Button in the root of the Repository or by [Patreon](https://www.patreon.com/bePatron?u=36441678&redirect_uri=https%3A%2F%2Fwww.marcogriep.de%2Fblog%2Finstallation-von-dsm-management-suite-backend-auf-einem-ubuntu-server-18-04%2F&utm_medium=widget). Thanks!
