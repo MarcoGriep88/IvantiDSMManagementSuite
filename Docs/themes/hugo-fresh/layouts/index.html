@@ -3,16 +3,20 @@
     {{ partial "hero.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.section1 }}
-    {{ partial "section1.html" . }}
-    {{ end }}
-
     {{ if .Site.Params.section2 }}
     {{ partial "section2.html" . }}
     {{ end }}
 
     {{ if .Site.Params.section3 }}
     {{ partial "section3.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.section1 }}
+    {{ partial "section1.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.section10 }}
+    {{ partial "section10.html" . }}
     {{ end }}
 
     {{ if .Site.Params.section4 }}

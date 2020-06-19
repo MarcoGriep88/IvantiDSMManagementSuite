@@ -19,7 +19,7 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/Logo_XXS.png
     link: /
   font:
     name: "Open Sans"
@@ -28,13 +28,13 @@ params:
     # Main hero title
     title: DSM Management Suite
     # Hero subtitle (optional)
-    subtitle: Independent Reporting Extension for Ivanti DSM
+    subtitle: Independent & Open Source Reporting Extension for Ivanti DSM
     # Button text
     buttontext: Learn more
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: illustrations/dsmneuerbenutzer.png
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
     - systek
@@ -45,56 +45,66 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
+    url: /#features
+  - title: Download
+    url: /#download
+  - title: Sponsoring
+    url: /#sponsoring
+  - title: Get Help
     sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
+    - title: Support
+      url: /support
+    - title: Knowledge Base
+      url: https://kb.marcogriep.de
+    - title: GitHub Issues
+      url: https://github.com/MarcoGriep88/IvantiDSMManagementSuite/issues
+  - title: Contact
+    url: /#contact
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Editions
+    subtitle: DSM Management Suite
     tiles:
-    - title: App builder
+    - title: Community Edition
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      text: Free and Open Source. Powered by main Contributor and the energy of the Community.
+      url: https://github.com/MarcoGriep88/IvantiDSMManagementSuite/
+      buttonText: GitHub Repository
+    - title: Patreon Edition
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      text: Access to the Enterprise Portal (Support), direct Contact to the Developer, Prebuild Virtual Appliances, Access to Feature Polls and additional Documents.
       url: /
       buttonText: Get started
-    - title: Add-ons & plugins
+    - title: Cloud Edition
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: Managed Hosting for the Web API and the Web Dashboard. The Infrastructre is managed by us (Updates etc.)
       url: /
       buttonText: Get started
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: Features
+    subtitle: This is what DSM Management Suite can do for you!
     features:
-    - title: Powerful and unified interface
+    - title: Enhanced Patch Reports
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
+    - title: Manager Dashboard
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: doc-sync
-    - title: Nomad system
+    - title: Powerfull Web API
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: Watch the Video
+    subtitle: And find out what DSM Management Suite can do for you
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
+  section10:
+      title: Check out the Demo
+      subtitle: There is a Demo Server available - Try before you install
+      image: illustrations/mockups/app-mockup.png
+      buttonText: What the Demo
+      buttonLink: "/demo"
   section4:
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
