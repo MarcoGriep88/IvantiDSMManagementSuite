@@ -1,5 +1,5 @@
-baseURL: http://something-fresh.org/
-languageCode: en-us
+baseURL: https://www.dsm-management-suite.de
+languageCode: de-de
 title: DSM Management Suite
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
@@ -28,11 +28,11 @@ params:
     # Main hero title
     title: DSM Management Suite
     # Hero subtitle (optional)
-    subtitle: Independent & Open Source Reporting Extension for Ivanti DSM
+    subtitle: Open Source Patch Reporting Extension für Ivanti DSM - Softwareverteilung Windows
     # Button text
-    buttontext: Learn more
+    buttontext: Mehr erfahren
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#features"
     # Hero image (from static/images/___)
     image: illustrations/dsmneuerbenutzer.png
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -46,72 +46,88 @@ params:
   navbar:
   - title: Features
     url: /#features
-  - title: Download
-    url: /#download
+  - title: Video
+    url: /#video
+  - title: Editionen
+    url: /#editions
+  - title: Demo
+    url: /#demo
   - title: Sponsoring
     url: /#sponsoring
-  - title: Get Help
+  - title: Hilfe
     sublinks:
     - title: Support
       url: /support
     - title: GitHub Issues
       url: https://github.com/MarcoGriep88/IvantiDSMManagementSuite/issues
-  - title: Contact
-    url: /#contact
+  - title: Kontakt
+    url: /#kontakt
   section1:
-    title: Editions
-    subtitle: DSM Management Suite
+    title: Editionen
+    subtitle: DSM Management Suite - Patch Management
     tiles:
     - title: Community Edition
       icon: mouse-globe
-      text: Free and Open Source. Powered by main Contributor and the energy of the Community. Help via GitHub Issues only.
+      text: Entwickelt und Supported von der Community auf GitHub. Support erfolgt über GitHub Issues.
       url: https://github.com/MarcoGriep88/IvantiDSMManagementSuite/
       buttonText: GitHub Repository
     - title: Patreon Edition
       icon: laptop-cloud
-      text: Access to the Enterprise Portal with direct contact to the Developer. Prebuild Virtual Appliances & Access to feature polls.
-      url: /
-      buttonText: Get started
+      text: Profitieren Sie vom zugriff auf das Unternehmensportal mit direktem Kontakt zum Entwickler, vorgefertigte virtuelle Appliances und Zugriff auf Feature-Umfragen. Ebenso können Sie Fragen stellen.
+      url: https://patreon.com/griepmarco
+      buttonText: Patreon Link
     - title: Cloud Edition
       icon: plug-cloud
-      text: Managed Hosting for the Web API and / or the Web Dashboard. The Infrastructre is managed by me (Updates, new Features, Backup)
-      url: /
-      buttonText: Get started
+      text: Managed Hosting in Frankfurt für die Web API und das Web Dashboard. Ich kümmere mich um das Hosting, Updates und Datensicherung.
+      url: /#kontakt
+      buttonText: Kontakt
   section2:
-    title: Features
-    subtitle: This is what DSM Management Suite can do for you!
+    title: Das bietet die DSM Management Suite
+    subtitle: Die wichtigsten Features
     features:
-    - title: Enhanced Patch Reports
-      text: Create meaningful patch reports and make predictions for the future based on historical data
+    - title: Erweitertes Patch Management
+      text: Ziehen Sie aussagekräftige Patch Reports aus Ihrer Umgebung. Identifizieren Sie welche Third-Party Applikation die meisten Lücken aufweist und wie effektiv tatsächlich Ihr Unternehmen geschützt ist.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Historische Daten
+      text: DSM Management Suite zeigt Ihnen einen Patch Verlauf an mit dem Sie prognosen für die Zukunft erstellen können. Schließen Sie mehr Sicherheitslücken als hinzukommen?
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Manager Dashboard
-      text: Give your IT manager access to the DSM Management Suite so that he can create reports without having to give him an introduction to the DSMC
+      text: Das Windows Dashboard wie auch das Web Dashboard sind optimal für IT-Manager. Sie brauchen sich in keine komplizierte DSM-Konsole einzuarbeiten.
       icon: doc-sync
-    - title: Powerfull Web API
-      text: Extend you reporting power by utilizing your favorite programming language like PowerShell, Python or C#. The Web API can deliver detailled patch data for reporting or automation.
+    - title: Mächtige Web API
+      text: Alle Patch Management Daten sind über eine performante Web-API auswertbar. Nutzen Sie Ihre favorisierte Programmiersprache wie PowerShell oder Python um individuelle Reports oder Automatisierungsaufgaben zu entwickeln.
       icon: mobile-feed
   section3:
-    title: Watch the Video
-    subtitle: And find out what DSM Management Suite can do for you
+    title: Jetzt ein Video ansehen...
+    subtitle: ...und sehen was die DSM Management Suite Ihnen bieten kann
     image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
+    buttonText: Zum Video
     buttonLink: "#"
   section10:
-      title: Check out the Demo
-      subtitle: There is a Demo Server available - Try before you install
+      title: Jetzt Demo ansehen
+      subtitle: Möchten Sie lieber selbst ausprobieren? Mit dem Demo Server haben Sie die Möglichkeit DSM Management Suite selbst auszuprobieren
       image: illustrations/mockups/app-mockup.png
       buttonText: Try the Demo
       buttonLink: "/demo"
+  section4:
+      title: Sponsoren
+      subtitle: Werden Sie Sponsor indem Sie das Projekt über Patreon oder PayPal unterstützen.
+      #clients:
+      #  Brandmauer:
+      #    quote: Möp
+      #    name: Brandmauer IT
+      #    job: Cheffe
   section5: true
   footer:
     # Social Media Title
-    socialmediatitle: Follow Us
+    socialmediatitle: Social Media
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/MarcoGriep88
       icon: github
-    - link: https://facebook.com/#
+    - link: https://www.facebook.com/marco.griep.73
       icon: facebook
     - link: https://twitter.com/MarcoGriep
       icon: twitter
@@ -120,31 +136,31 @@ params:
     bulmalogo: true
     quicklinks:
       column1:
-        title: "Product"
+        title: "Produkt"
         links:
-        - text: Why choose this product?
-          link: /#features
-        - text: Compare editions
+        - text: Editionen vergleichen
           link: /#editions
-        - text: Privacy
-          link: /privacy
-        - text: Impress
-          link: /impress
+        - text: Datenschutz
+          link: /datenschutz
+        - text: Impressum
+          link: /impressum
+        - text: Lizenz
+          link: http://www.gnu.de/documents/gpl.de.html
       column2:
-        title: "Docs"
+        title: "Dokumente"
         links:
-        - text: German getting started
+        - text: Deutsche Anleitung
           link: https://www.marcogriep.de/blog/dsm-management-suite-anleitung/
-        - text: English getting started
+        - text: English manual
           link: https://www.marcogriep.com/blog/dsm-management-suite-manual/
         - text: GitHub Repository
           link: https://github.com/MarcoGriep88/IvantiDSMManagementSuite
         - text: Patreon
           link: https://www.patreon.com/griepmarco
       column3:
-        title: "Blog"
+        title: "Blogs"
         links:
-        - text: German Blog
+        - text: Deutscher Entwickler Blog
           link: https://www.marcogriep.de/blog
-        - text: English Blog
+        - text: English Developer Blog
           link: https://www.marcogriep.com/blog
