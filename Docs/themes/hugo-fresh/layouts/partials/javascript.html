@@ -3,8 +3,16 @@
 <script src="{{ "js/fresh.js" | relURL }}"></script>
 <script src="{{ "js/jquery.panelslider.min.js" | relURL }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<!-- Matomo -->
+<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+<script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
 <script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"de"});
+});
+</script>
+
+<!-- Matomo -->
+<script type="text/plain" cookie-consent="tracking">
     var _paq = window._paq || [];
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(['trackPageView']);
@@ -17,5 +25,8 @@
       g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
     })();
   </script>
-  <noscript><p><img src="//analytics.marcogriep.de/matomo.php?idsite=5&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-  <!-- End Matomo Code -->
+  <noscript><p><img src="//analytics.marcogriep.de/matomo.php?idsite=5&rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- end of Matomo-->
+
+<noscript>Cookie Consent by <a href="https://www.FreePrivacyPolicy.com/free-cookie-consent/" rel="nofollow">FreePrivacyPolicy.com</a></noscript>
+<!-- End Cookie Consent -->
