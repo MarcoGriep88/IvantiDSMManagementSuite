@@ -82,14 +82,14 @@ params:
     subtitle: This is what DSM Management Suite can do for you!
     features:
     - title: Enhanced Patch Reports
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      text: Create meaningful patch reports and make predictions for the future based on historical data
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Manager Dashboard
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      text: Give your IT manager access to the DSM Management Suite so that he can create reports without having to give him an introduction to the DSMC
       icon: doc-sync
     - title: Powerfull Web API
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      text: Extend you reporting power by utilizing your favorite programming language like PowerShell, Python or C#. The Web API can deliver detailled patch data for reporting or automation.
       icon: mobile-feed
   section3:
     title: Watch the Video
@@ -103,22 +103,6 @@ params:
       image: illustrations/mockups/app-mockup.png
       buttonText: Try the Demo
       buttonLink: "/demo"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
   section5: true
   footer:
     # Social Media Title
@@ -138,7 +122,7 @@ params:
       column1:
         title: "Product"
         links:
-        - text: Why choose our product?
+        - text: Why choose this product?
           link: /#features
         - text: Compare editions
           link: /#editions
