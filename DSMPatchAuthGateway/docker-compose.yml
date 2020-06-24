@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  packless:
+    image: ${DOCKER_REGISTRY-}packless
+    depends_on:
+       - db
+    container_name: api-dsmapi-dotnetcore-001
+    build:
+      context: .
+      dockerfile: Packless/Dockerfile
+  db:
+    image: mariadb:latest
+    container_name: db-dsmapi-mariadb-001
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: dsmapi
+      MYSQL_DATABASE: dsmapi
+      MYSQL_USER: dsmapi
+      MYSQL_PASSWORD: dsmapi
+
+volumes:
+    db_data: {}

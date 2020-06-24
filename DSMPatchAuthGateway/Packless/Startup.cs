@@ -33,8 +33,7 @@ namespace Packless
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<PacklessDbContext>(options => options.UseMySql(Configuration["ConnectionString:MySQLLocal"]));
-
+            services.AddDbContext<PacklessDbContext>(options => options.UseMySql(Configuration["ConnectionString:Default"]));
             services.AddCors(o => o.AddPolicy("DevPolicy", builder =>
             {
                 //builder.WithOrigins("https://localhost:44319", "http://packless.marcogriep.de", "https://locahost:4200")
@@ -97,6 +96,12 @@ namespace Packless
 
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
+
+            using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+                serviceScope.ServiceProvider.GetService<PacklessDbContext>()
+                     .Database.Migrate();
+            }
 
             //app.UseHttpsRedirection(); //Wenn aktiviert, JwtAuthentication funktioniert nicht... ?!
             app.UseMvc();
