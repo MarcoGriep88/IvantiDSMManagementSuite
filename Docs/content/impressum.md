@@ -21,12 +21,7 @@ Bitte nutzen Sie die E-Mail Adresse für die Kontaktaufnahme. Gerne können wir 
 
 E-Mail: [griepmarco@protonmail.com](mailto:griepmarco@protonmail.com)
 
-[https://www.marcogriep.de](https://www.marcogriep.de)  
-[https://social.marcogriep.de](https://social.marcogriep.de)
-[https://cloud.marcogriep.de](https://cloud.marcogriep.de)
-[https://sl.marcogriep.de](https://sl.marcogriep.de)
-[https://dsmdemo.marcogriep.de](https://dsmdemo.marcogriep.de)
-[https://countdown.marcogriep.de](https://countdown.marcogriep.de)
+- [https://www.marcogriep.de](https://www.dsm-management-suite.de)  
 
 Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:
 
