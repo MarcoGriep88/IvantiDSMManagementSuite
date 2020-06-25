@@ -6,6 +6,8 @@ services:
     depends_on:
        - db
     container_name: api-dsmapi-dotnetcore-001
+    ports: 
+      - "12500:80"
     build:
       context: .
       dockerfile: Packless/Dockerfile
