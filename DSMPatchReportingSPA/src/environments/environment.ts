@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'http://dsmapi.marcogriep.de/api'
+  baseUrl: 'https://api.dsm-management-suite.de/api'
 };
 /*
 baseUrl: 'https://localhost:44319/api'
