@@ -6329,7 +6329,7 @@ Section Styles
   background-color: #EFF4F7; }
 
 .section.section-feature-grey {
-  background-color: #fbfbfb; }
+  background-color: #cbcbcb; }
 
 .section.section-secondary {
   background-color: #da291c; }

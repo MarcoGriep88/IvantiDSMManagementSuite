@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Mehr erfahren
     # Where the main hero button links to
-    buttonlink: "#features"
+    buttonlink: "#diedsm"
     # Hero image (from static/images/___)
     image: illustrations/dsmneuerbenutzer.png
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -81,6 +81,12 @@ params:
       text: Managed Hosting in Frankfurt für die Web API und das Web Dashboard. Ich kümmere mich um das Hosting, Updates und Datensicherung.
       url: /#kontakt
       buttonText: Kontakt
+  vorgestellt:
+    title: Was ist die DSM Management Suite?
+    text: Die DSM Management Suite ist eine unabhängige Erweiterung für die Ivanti DSM Infrastruktur und hat den Fokus, für das Software- und Patch Management, detailliertere Informationen und Reports zu liefern. Die DSM Management Suite sammelt dabei in regelmäßigen abständen Informationen aus Ihrer Ivanti DSM Umgebung (z.B. zu Computer-Sicherheitslücken) und sendet diese Informationen an die Web API von DSM Management Suite. Das Windows Dashboard ermöglicht Ihnen auf diese Daten zuzugreifen und Auswertungen zu erstellen (häufigsten Sicherheitslücken, Aktueller Patch Stand, Historie und Trendlinie). Im Gegensatz zu XTraction liegt der Fokus auf Patch Informationen. Da die Software regelmäßig (täglich, wöchentlich, monatlich) alle Sicherheitslücken von Computerobjekten erfasst, erhalten Sie einen Historie. Dadurch sehen Sie wie effektiv Sie Ihre Umgebung Patchen. Oft sind Unternehmen zu konservativ was das Freigeben von Updates angeht und es kommen immer mehr Sicherheitslücken hinzu als gefixt werden. Das Backend (Web API) ermöglicht Ihnen, mit jeder beliebigen Programmiersprache (z.B. Python) alle Informationen vom DSM Management Suite abzurufen und selbst zu analysieren, sofern notwendig.
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Zum Video
+    buttonLink: "#"
   section2:
     title: Das bietet die DSM Management Suite
     subtitle: Die wichtigsten Features

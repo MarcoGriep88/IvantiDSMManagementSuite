@@ -1,0 +1,32 @@
+{{- $vorgestellt   := .Site.Params.vorgestellt }}
+{{- $title      := index $vorgestellt "title" }}
+{{- $text   := index $vorgestellt "text" }}
+{{- $image      := index $vorgestellt "image" }}
+{{- $buttonText := index $vorgestellt "buttontext" }}
+{{- $buttonLink := index $vorgestellt "buttonlink" }}
+<section class="section section-feature-grey" id="diedsm">
+    <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-6 landing-caption">
+            <h1 class="title is-3 is-bold is-spaced">
+              {{ $title }}
+            </h1>
+            {{ with $text }}
+            <spam class="is-muted">
+              {{ . }}
+            </spam>
+            {{ end }}
+          </div>
+          <div class="column is-6 is-offset-1">
+            <div class="has-text-centered">
+              <img class="pushed-image" src="{{ printf "/images/%s" $image | relURL }}">
+            </div>
+            <p class="has-text-centered mt-20">
+                <a class="button cta is-large rounded secondary-btn raised" href="{{ $buttonLink }}">
+                  {{ $buttonText }}
+                </a>
+              </p>
+          </div>
+        </div>
+      </div>
+</section>
