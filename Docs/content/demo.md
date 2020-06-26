@@ -31,3 +31,26 @@ Die wichtigste Komponente ist das Windows Dashboard. Hier haben Sie die diverse 
 **Empfohlen wird ebenfalls:**
 * ImportExcel PowerShell Modul von dfinke. [Download](https://github.com/dfinke/ImportExcel)
 
+##### 2. Anwendung einrichten
+Starten Sie die Anwendung und geben Sie als API Adresse ein:
+***https://api.dsm-management-suite.de/api***
+
+##### 3. Als Benutzer anmelden
+Der Benutzername für die Demo-Version ist:
+
+* Benutzer: demo
+* Passwort: demo1234
+
+Wenn alles richtig gemacht wurde, sollten Sie sich nun einloggen können und Daten sehen.
+
+##### 4. Die Web Demo ansehen
+Um Sie das Web Dashboard anzusehen können Sie ganz einfach auf folgende Adresse gehen und den oben genannten Benutzername und Passwort eingeben:
+
+[Web Dashboard](https://demo.dsm-management-suite.de/)
+
+#### Weitere Artikel
+
+* [Wie Sie mit Python individuelle Reports aus der Web API nutzen](https://www.marcogriep.de/blog/mit-python-automatisiert-patch-reports-aus-dsm-management-suite-erstellen/)
+* [Englisch: Wie Sie mit Python individuelle Reports aus der Web API nutzen](https://www.marcogriep.com/blog/automatically-create-patch-reports-from-dsm-management-suite-with-python/)
+* [Deutsche Installationsanleitung](https://www.marcogriep.de/blog/dsm-management-suite-anleitung/)
+* [Englische Installationsanleitung](https://www.marcogriep.com/blog/dsm-management-suite-manual/)
