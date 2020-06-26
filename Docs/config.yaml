@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Mehr erfahren
     # Where the main hero button links to
-    buttonlink: "#diedsm"
+    buttonlink: "#video"
     # Hero image (from static/images/___)
     image: illustrations/dsmneuerbenutzer.png
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -87,7 +87,7 @@ params:
     image: illustrations/mockups/app-mockup.png
     buttonText: Zum Video
     buttonLink: "#"
-  section2:
+  dasbietet:
     title: Das bietet die DSM Management Suite
     subtitle: Die wichtigsten Features
     features:
@@ -105,17 +105,11 @@ params:
     - title: Mächtige Web API
       text: Alle Patch Management Daten sind über eine performante Web-API auswertbar. Nutzen Sie Ihre favorisierte Programmiersprache wie PowerShell oder Python um individuelle Reports oder Automatisierungsaufgaben zu entwickeln.
       icon: mobile-feed
-  section3:
-    title: Jetzt ein Video ansehen...
-    subtitle: ...und sehen was die DSM Management Suite Ihnen bieten kann
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Zum Video
-    buttonLink: "#"
   section10:
       title: Jetzt Demo ansehen
       subtitle: Möchten Sie lieber selbst ausprobieren? Mit dem Demo Server haben Sie die Möglichkeit DSM Management Suite selbst auszuprobieren
       image: illustrations/mockups/app-mockup.png
-      buttonText: Try the Demo
+      buttonText: Zur Demo
       buttonLink: "/demo"
   section4:
       title: Sponsoren

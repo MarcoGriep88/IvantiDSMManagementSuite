@@ -4,7 +4,6 @@ date: 2020-06-01T09:28:12+01:00
 author: griep.marco
 layout: _default
 permalink: /impressum/
-nosidebar: true
 ---
 
 ## Angaben gemäß § 5 TMG:
