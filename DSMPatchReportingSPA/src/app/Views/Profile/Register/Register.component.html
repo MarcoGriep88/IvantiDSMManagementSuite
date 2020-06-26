@@ -1,11 +1,11 @@
 <div class="bg-banner">
-    
+
 </div>
 
 <div class="overlay">
-    <form class="form-signin" #f="ngForm" (ngSubmit)="signIn(f.value)">
+    <form class="form-signin" #f="ngForm" >
         <h2 class="form-signin-heading">Registrieren</h2>
-        <div *ngIf="this.invalidLogin()" class="alert alert-danger">Ungültiger Benutzername oder Passwort.</div>
+        <div  class="alert alert-danger">Ungültiger Benutzername oder Passwort.</div>
 
         <label for="inputUsername" class="sr-only">Email Adresse</label>
         <input type="username" id="inputUsername" name="username" ngModel class="form-control" placeholder="Benutzername" required autofocus>
