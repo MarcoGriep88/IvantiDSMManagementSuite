@@ -1,0 +1,6 @@
+C:\Users\Griep\Documents\GitHub\IvantiDSMManagementSuite\DSM Patch Reporting Settings\dsmaddons\bin\Debug\dsmaddons.dll
+C:\Users\Griep\Documents\GitHub\IvantiDSMManagementSuite\DSM Patch Reporting Settings\dsmaddons\bin\Debug\dsmaddons.pdb
+C:\Users\Griep\Documents\GitHub\IvantiDSMManagementSuite\DSM Patch Reporting Settings\dsmaddons\obj\Debug\dsmaddons.csprojAssemblyReference.cache
+C:\Users\Griep\Documents\GitHub\IvantiDSMManagementSuite\DSM Patch Reporting Settings\dsmaddons\obj\Debug\dsmaddons.csproj.CoreCompileInputs.cache
+C:\Users\Griep\Documents\GitHub\IvantiDSMManagementSuite\DSM Patch Reporting Settings\dsmaddons\obj\Debug\dsmaddons.dll
+C:\Users\Griep\Documents\GitHub\IvantiDSMManagementSuite\DSM Patch Reporting Settings\dsmaddons\obj\Debug\dsmaddons.pdb

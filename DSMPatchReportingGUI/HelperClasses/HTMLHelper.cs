@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace DSMPatchReportingGUI.HelperClasses
 {
@@ -14,33 +15,57 @@ namespace DSMPatchReportingGUI.HelperClasses
 
         public static void WriteHTMLHeader(ref ReportWriter writer, string DSMPR_TITLE)
         {
-            StreamReader read = new StreamReader(Environment.CurrentDirectory.ToString() + "\\templates\\header.html");
-            string html = read.ReadToEnd();
+            try
+            {
+                StreamReader read = new StreamReader(Environment.CurrentDirectory.ToString() + "\\templates\\header.html");
+                string html = read.ReadToEnd();
 
-            LastDSMPR_TITLE = DSMPR_TITLE;
+                LastDSMPR_TITLE = DSMPR_TITLE;
 
-            html = html.Replace("{{_DSMPR_REPORT_TITLE_}}", DSMPR_TITLE);
+                html = html.Replace("{{_DSMPR_REPORT_TITLE_}}", DSMPR_TITLE);
 
-            writer.Write(html);
+                writer.Write(html);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
 
         internal static void WriteHTMLBody(ref ReportWriter writer, string dataHTML)
         {
-            StreamReader read = new StreamReader(Environment.CurrentDirectory.ToString() + "\\templates\\body.html");
-            string html = read.ReadToEnd();
+            try
+            {
+                StreamReader read = new StreamReader(Environment.CurrentDirectory.ToString() + "\\templates\\body.html");
+                string html = read.ReadToEnd();
 
-            html = html.Replace("{{_DSMPR_REPORT_DATA_}}", dataHTML);
-            html = html.Replace("{{_DSMPR_REPORT_TITLE_}}", LastDSMPR_TITLE);
+                html = html.Replace("{{_DSMPR_REPORT_DATA_}}", dataHTML);
+                html = html.Replace("{{_DSMPR_REPORT_TITLE_}}", LastDSMPR_TITLE);
 
-            writer.Write(html);
+                writer.Write(html);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
 
         public static void WriteHTMLFooter(ref ReportWriter writer)
         {
-            StreamReader read = new StreamReader(Environment.CurrentDirectory.ToString() + "\\templates\\footer.html");
-            string html = read.ReadToEnd();
+            try
+            {
+                StreamReader read = new StreamReader(Environment.CurrentDirectory.ToString() + "\\templates\\footer.html");
+                string html = read.ReadToEnd();
 
-            writer.Write(html);
+                writer.Write(html);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
     }
 }
