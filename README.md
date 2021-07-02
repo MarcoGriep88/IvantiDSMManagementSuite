@@ -27,6 +27,6 @@ This application is still in maintanance. If you use this application, please co
 The official Website (dsm-management-suite.de) is offline now. There is very few interest in this Application and no support from the community. To safe hosting costs i will use GitHub Pages in the Future.
 
 # How to use Python for DSM Management Suite Patch Forecasts
-[Python programming)https://www.protoncode.eu/post/erstellen-sie-automatisch-patch-berichte-aus-der-dsm-management-suite-mit-python/)
+[Python programming](https://www.protoncode.eu/post/erstellen-sie-automatisch-patch-berichte-aus-der-dsm-management-suite-mit-python/)
 
 * [IT-Consultant & Software Developer - Marco Griep](https://www.marcogriep.de)
