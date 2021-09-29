@@ -28,7 +28,7 @@
     "bootstrap": "^4.1.3",
     "chart.js": "^2.7.3",
     "core-js": "^2.5.4",
-    "datatables.net": "^1.10.19",
+    "datatables.net": "^1.11.3",
     "datatables.net-dt": "^1.10.19",
     "gpx-parse": "^0.10.4",
     "moment": "^2.24.0",
