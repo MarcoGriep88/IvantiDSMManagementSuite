@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R355UHE)
+
 DSM Management Suite is an independent extension for Ivanti DSM.
 It extends the evaluation options of Ivanti DSM in the area of patch management.
 All patch management solutions from Ivanti DSM are supported:
